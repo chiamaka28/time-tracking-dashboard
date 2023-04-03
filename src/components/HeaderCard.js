@@ -3,7 +3,7 @@ import hero from '../images/image-jeremy.png';
 const HeaderCard = () => {
     return (
         
-    <div className='w-[270px] mx-auto my-9 h-[150px] flex flex-col bg-dark-blue rounded-xl'>
+    <div className='my-container my-9 h-[150px] flex flex-col bg-dark-blue rounded-xl'>
         <div className="flex bg-desaturated-blue h-[65%] items-center justify-center rounded-lg">
             <div className='border-white border-2 rounded-full'><img className="w-[45px]"  src={hero} alt="/" /></div>
              <div>

@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.my-container {
+  @apply w-[90%] mx-auto max-w-[800px];
+}
